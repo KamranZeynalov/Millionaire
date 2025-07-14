@@ -30,28 +30,28 @@ if os.path.exists("scores.txt") and os.stat("scores.txt").st_size != 0:
     scores = pickle.load(file)
     file.close()
 
-design = ImageTk.PhotoImage(Image.open("img/mill.png"))
+design = PhotoImage(file="img/logo.png")
 background_image = Label(master, image=design)
 background_image.place(relheight=1, relwidth=1)
 
 first_frame = Frame(master, bg="#F8EDB8")
 first_frame.place(relx=0.04, rely=0.04, relwidth=0.92, relheight=0.92)
 
-image1 = PhotoImage(file=r"C:\Users\User\PycharmProjects\python123\img\login-button-png-18030 (1).gif")
+image1 = PhotoImage(file="img/login-button.gif")
 sign_in_image = image1.subsample(3, 3)
 
 sign_in_button = Button(master, image=sign_in_image, compound=LEFT, borderwidth=0, command=lambda: login(),
                         bg="#F8EDB8")
 sign_in_button.place(relx=0.32, rely=0.38, relwidth=0.35, relheight=0.13)
 
-image2 = PhotoImage(file=r"C:\Users\User\PycharmProjects\python123\img\register-button-png-18477.gif")
+image2 = PhotoImage(file="img/register-button.gif")
 sign_up_image = image2.subsample(3, 3)
 
 sign_up_button = Button(master, image=sign_up_image, compound=LEFT, borderwidth=0, command=lambda: register(),
                         bg="#F8EDB8")
 sign_up_button.place(relx=0.32, rely=0.55, relwidth=0.35, relheight=0.13)
 
-logo = PhotoImage(file=r"C:\Users\User\PycharmProjects\python123\img\second.png")
+logo = PhotoImage(file="img/secondLogo.png")
 game_image = logo.subsample(11, 11)
 
 
