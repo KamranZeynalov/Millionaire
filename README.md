@@ -1,5 +1,13 @@
 # 🧠 Who Wants to Be a Millionaire (Tkinter Edition)
 
+![Python](https://img.shields.io/badge/python-3.6%2B-blue.svg)
+![Platform](https://img.shields.io/badge/platform-Desktop-lightgrey.svg)
+![GUI](https://img.shields.io/badge/GUI-Tkinter-orange.svg)
+![Status](https://img.shields.io/badge/status-Legacy-red.svg)
+![Dependency](https://img.shields.io/badge/dependency-Pillow-yellow.svg)
+![Game](https://img.shields.io/badge/Game-Trivia-blueviolet.svg)
+
+
 This is a desktop GUI game based on the classic *“Who Wants to Be a Millionaire?”*, built using **Python 3.6** and **Tkinter**.  
 It includes a full authentication system, trivia gameplay, score tracking, and persistent local storage — all bundled with a retro-inspired UI 🎮
 
