@@ -1,10 +1,10 @@
 # 🧠 Who Wants to Be a Millionaire (Tkinter Edition)
 
-![Python](https://img.shields.io/badge/python-3.6%2B-blue.svg)
-![Platform](https://img.shields.io/badge/platform-Desktop-lightgrey.svg)
+![Python](https://img.shields.io/badge/Python-3.6-blue.svg)
+![Platform](https://img.shields.io/badge/Platform-Desktop-lightgrey.svg)
 ![GUI](https://img.shields.io/badge/GUI-Tkinter-orange.svg)
-![Status](https://img.shields.io/badge/status-Legacy-red.svg)
-![Dependency](https://img.shields.io/badge/dependency-Pillow-yellow.svg)
+![Status](https://img.shields.io/badge/Status-Legacy-red.svg)
+![Dependency](https://img.shields.io/badge/Dependency-Pillow-yellow.svg)
 ![Game](https://img.shields.io/badge/Game-Trivia-blueviolet.svg)
 
 
